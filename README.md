@@ -6,7 +6,8 @@ This set of notebooks takes you through a gentle introduction to one of the most
 MNIST is a dataset of 60,000 handwritten digits, which is used as input to train an AI. The AI learns the relationship between the pixel values, the arrangement, and the digit. The AI then is able to label arbitrary handwritten digits.
 
 This will require:
-  * Red Hat OpenShift Data Science managed service
+  * Red Hat OpenShift Data Science
+    * Managed or self-managed and installed in an OpenShift cluster via the OperatorHub. A [Developer Sandbox](https://developers.redhat.com/developer-sandbox) can also be used to try the setup.
   * Python 3
   * The ability to untar .tar.gz files
   * Access to the internet for pip installs
